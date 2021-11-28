@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create your memos!</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <h1 class="hidden">메모 사이트</h1>
+
+    <section class="wrap">
+        <article class="time-weather on">
+            <p class="time time--main">22:08</p>
+            <p class="day">11월 28일 월요일</p>
+            <p class="weather weather--main">위치 서비스를 허용해주세요</p>
+
+            <p class="time-weather__click-info">Click!!</p>
+        </article>
+
+        <article class="login">
+            <section class="time-weather--upper">
+                <p class="time time--upper">22:08</p>
+                <p class="weather weather--upper">위치 없음</p>
+            </section>
+            <button class="btn btn--back">
+                <span class="material-icons-outlined">
+                    arrow_back_ios_new
+                </span>
+            </button>
+
+            <form class="login__form">
+                <label class="login__label">이름을 입력해주세요.</label>
+                <input type="text" class="login__input-name">
+                <button class="login__btn">확인</button>
+            </form>
+        </article>
+
+        <article class="todo">
+            <section class="time-weather--upper">
+                <p class="time time--upper">22:08</p>
+                <p class="weather weather--upper">위치 없음</p>
+            </section>
+            <div class="todo__title">
+                <button class="btn btn--back">
+                    <span class="material-icons-outlined">
+                        arrow_back_ios_new
+                    </span>
+                </button>
+
+                <strong class="name todo__name"></strong>
+            </div>
+
+            <ul class="todo__list">
+                <li class="todo__item">
+                    <strong class="todo__list-title">11월 28일 월요일의 할 일</strong>
+                </li>
+            </ul>
+            <form class="todo__form">
+                <input type="text" class="todo__input">
+                <button class="todo__btn">
+                    <span class="material-icons-outlined">
+                        arrow_upward
+                    </span>
+                </button>
+            </form>
+        </article>
+    </section>
+
+
+    <script src="js/changeWindow.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/login.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/geolocation.js"></script>
+</body>
+</html> 

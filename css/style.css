@@ -1,0 +1,190 @@
+.wrap {
+    width: 375px;
+    height: 667px;
+    margin: 0 auto;
+    border: 1px solid lightblue;
+}
+
+.time-weather {
+    display: none;
+    padding-top: 100px;
+    height: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    color: white;
+}
+
+.time-weather.on {
+    display: block;
+}
+
+.time--main {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.day {
+    margin-top: 4px;
+}
+
+.weather--main {
+    margin-top: 18px;
+}
+
+.time-weather__click-info {
+    margin-top: 360px;
+    font-size: 18px;
+    font-weight: 500;
+    box-sizing: border-box;
+}
+
+.login {
+    display: none;
+    position: relative;
+    height: 100%;
+    text-align: left;
+}
+
+.login.on {
+    display: block;
+}
+
+.time-weather--upper {
+    margin: 5px;
+    text-align: center;
+    position: relative;
+    color: white;
+}
+
+.weather--upper {
+    position: absolute;
+    top: 0;
+    right: 5px;
+}
+
+.btn--back {
+    border: none;
+    background-color: transparent;
+    filter: invert();
+}
+
+.login__form {
+    padding-top: 165px;
+    height: 613px;
+    text-align: center;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.login__label {
+    display: block;
+}
+
+.login__input-name {
+    display: inline-block;
+    border: none;
+    border-bottom: 1px solid black;
+    margin-top: 8px;
+    font-size: 17px;
+    text-align: center;
+}
+
+.login__input-name:focus {
+    outline: none;
+}
+
+.login__btn {
+    position: absolute;
+    bottom: 0;
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: gold;
+    font-size: 18px;
+    padding: 10px 0;
+}
+
+
+.todo {
+    display: none;
+    margin: 5px;
+}
+
+.todo.on {
+    display: block;
+}
+
+.todo__title {
+    position: relative;
+    margin-top: 5px;
+}
+
+.todo__title .btn--back {
+    position: absolute;
+    top: 4px;
+}
+
+.todo__name {
+    display: block;
+    text-align: center;
+    padding: 10px;
+}
+
+.todo__list {
+    margin-top: 15px;
+    height: 540px;
+    text-align: right;
+    overflow-y: scroll;
+}
+
+.todo__item {
+    position: relative;
+    margin: 20px 0;
+}
+
+.todo__item::before {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: block;
+    content: '';
+    border-left: 10px solid gold;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+}
+
+.todo__list-title, .todo__text {
+    padding: 8px;
+    margin: 8px;
+    background-color: gold;
+    border-radius: 10px;
+}
+
+.todo__list-btn {
+    border: none;
+    background-color: transparent;
+}
+
+.todo__form {
+    position: relative;
+}
+
+.todo__input {
+    width: 100%;
+    border: 1px solid #C4C4C4;
+    border-radius: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.todo__btn {
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    background-color: gold;
+    border: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 12.5px;
+    padding: 0;
+} 
