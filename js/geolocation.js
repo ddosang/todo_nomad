@@ -1,4 +1,4 @@
-const API_KEY = "310ea266c5ce536164fdb78c045b6276";
+const API_KEY = config.apiKey;
 
 function getWeather(position) {
     const lat = position.coords.latitude;
