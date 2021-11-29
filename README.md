@@ -18,9 +18,9 @@ https://ddosang.github.io/todo_nomad/
 
 <br>
 
-<div>
-    <img width="45%" align="left" src="jpg/geo_ok.jpg">
-    <img width="45%" align="left" src="jpg/geo_ok.jpg">
+<div style="diplay:flex">
+    <img width="45%" src="png/geo_ok.png">
+    <img width="45%" src="png/geo_ok.png">
 </div>
 
 <div style="clear: both">
@@ -30,9 +30,9 @@ https://ddosang.github.io/todo_nomad/
 
 <br>
 
-<div>
-    <img width="45%" align="left" src="jpg/name.jpg">
-    <img width="45%" align="left" src="jpg/todo.jpg">
+<div style="diplay:flex">
+    <img width="45%" src="png/name.png">
+    <img width="45%" src="png/todo.png">
 </div>
 
 <div style="clear: both">
